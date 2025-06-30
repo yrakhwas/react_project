@@ -1,0 +1,13 @@
+.user-card{
+    background-color: darkblue;
+    color: white;
+    text-align: left;
+    padding: 1px 15px;
+    border-radius: 6px;
+    margin: 2px;
+    display:inline-block;
+}
+
+.user-card h3{
+    text-align: center;
+}
