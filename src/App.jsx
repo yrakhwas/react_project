@@ -6,12 +6,12 @@ import UserList from './components/userList'
 function App() {
 
   const USERS = [
-    { name: "Yurii", address: "Rivne, Ukraine", position: "Teacher", color: "Red" },
-    { name: "Vitalik", address: "Kostopil, Ukraine", position: "Student", color: "Green" },
-    { name: "Jenya", address: "Dzhmelivka, Ukraine", position: "Pupil", color: "Orange" },
-    { name: "Mihailo", address: "Verhivsk, Ukraine", position: "Student" },
-    { name: "Oleg", address: "Kyiv, Ukraine", position: "Developer", color: "Blue" },
-    { name: "Olena", address: "Lviv, Ukraine", position: "Designer", color: "Purple" }
+    { id:"1", name: "Yurii", address: "Rivne, Ukraine", position: "Teacher", color: "Red" },
+    { id:"2",name: "Vitalik", address: "Kostopil, Ukraine", position: "Student", color: "Green" },
+    { id:"3",name: "Jenya", address: "Dzhmelivka, Ukraine", position: "Pupil", color: "Orange" },
+    { id:"4",name: "Mihailo", address: "Verhivsk, Ukraine", position: "Student" },
+    { id:"5",name: "Oleg", address: "Kyiv, Ukraine", position: "Developer", color: "Blue" },
+    { id:"6",name: "Olena", address: "Lviv, Ukraine", position: "Designer", color: "Purple" }
 
   ]
   return (
